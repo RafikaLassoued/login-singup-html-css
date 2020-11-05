@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<head>
+<meta charset="utf-8">
+<meta name="description"content="GreenDisk">
+<title>login design</title>
+<link rel="stylesheet" type="text/css" href="CSS-1.css"/>
+<!--script>alert('welcome to GreenDisk');</script-->
+</head>
+<body>
+<div class="container">
+<img src="C:\Users\rafik\OneDrive\Desktop\file\web dev\simple-code\src-img\chop.png" class="user">
+<h1>Vendor</h1>
+<form>
+<p>Username</p>
+<input type="text" name="Username" placeholder="name" maxlength="10">
+<p>password</p>
+<input type="password" name="password" placeholder="password">
+<input  type="submit" name="submit" value="Login"onClick="login()">
+<!--type="button" onclick="login() "-->
+<pre>
+<a href="C:\Users\rafik\OneDrive\Desktop\web dev\singup.html">Sign up</a>
+<a href="C:\Users\rafik\OneDrive\Desktop\web dev\forgetpass.html">Forget password</a>
+</pre>
+</form>
+</div>
+
+<script>
+function login() {
+   var password = document.getElementById('name').value;
+   var name = document.getElementById('password').value;
+    if(password==1234&&name=="rafika") {
+     window.location ="Home.html" ;
+  } else {
+   // console.log('You are not in :(');
+  }
+
+  //document.getElementById("btn01").submit();
+}
+</script>
+</body>
+</html>
